@@ -1,0 +1,36 @@
+
+# Colors
+#axes.prop_cycle : cycler('color', ['dodgerblue', 'darkorange',  'green', 'red', 'purple','lightseagreen', 'brown'])
+
+# Fonts
+font.family: FreeSans
+font.size: 14
+
+
+# Figure size
+figure.figsize: 12, 8
+
+# Grid
+grid.linestyle: :
+grid.color: gray
+grid.alpha: 0.5
+axes.grid: True
+
+axes.titlesize: 21
+axes.labelsize: 18
+axes.titlepad: 25
+xtick.major.pad : 7
+ytick.major.pad : 7
+axes.labelpad: 15
+
+
+# Axis limits
+axes.spines.right: False
+axes.spines.top: False
+
+legend.fontsize      : large
+legend.frameon       : False
+
+
+# Savefig
+savefig.format: 'pdf'
