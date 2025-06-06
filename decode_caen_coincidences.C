@@ -24,6 +24,7 @@
 #include <bitset>
 #include <stdio.h>
 #include <climits>
+#include <cstdint>
 #include <cstdio>
 #include <cmath>
 #include <iomanip>
@@ -70,6 +71,8 @@ int main(int argc,char **argv){
   // * Declaration of first array of chars containing hex from header (TOT: 33 bytes)
   unsigned char header[_HEADER_SIZE];
   int r;
+  
+  int ll;
 
   int channel_start = std::atoi(argv[2]);
   int channel_stop = std::atoi(argv[3]);
@@ -101,7 +104,7 @@ int main(int argc,char **argv){
 
   // * Declaration of needed variables 
   long long event_size_sum = _HEADER_SIZE;
-  unsigned int event_size[_EVENT_SIZE_LENGTH];
+  unsigned char event_size[_EVENT_SIZE_LENGTH];
 
   int i=0;
 
